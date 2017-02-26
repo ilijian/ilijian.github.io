@@ -1,0 +1,29 @@
+<header class="header-main">
+  <div class="constrained">
+    <div class="avatar link"><a class="text-uppercase" href="{{site_url}}"></a></div>
+    <div class="nav">
+      <ul>
+        <li><a href="{{ site.url }}/">Home</a></li>
+        <li><a href="{{ site.url }}/posts/">Posts</a></li>
+        <li><a href="{{ site.url }}/about/">About me</a></li>
+      </ul>
+      <a href="" class="collapsed"></a>
+    </div>
+  </div>
+</header>
+<script type="text/javascript">
+  var toggle = document.querySelector('.header-main .collapsed');
+  var nav = document.querySelector('.header-main .nav');
+  toggle.addEventListener('click',function(event){
+    event.preventDefault();
+    var className = nav.className.split(' ');
+    var index = className.indexOf('expanded');
+    if(index === -1) {
+      className.push('expanded');
+    }else {
+      className.splice(index,1);
+    }
+    nav.className = className.join(' ');
+    return false;
+  })
+</script>
