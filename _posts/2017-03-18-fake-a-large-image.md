@@ -49,16 +49,16 @@ tags: [memo]
   width: 33.33333%;
   height: 0;
   padding-bottom: 33.33333%;
-  background-image: url('/images/events/3t-black/xx.png?1489821175');
+  background-image: url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175');
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-image: image-set(url('/images/events/3t-black/xx.png?1489821175') 1x);
-  background-image: image-set(url('/images/events/3t-black/xx.png?1489821175') 1x, url('/images/events/3t-black/xx.png?1489821175') 2x);
-  background-image: -webkit-image-set(url('/images/events/3t-black/xx.png?1489821175') 1x, url('/images/events/3t-black/xx.png?1489821175') 2x);
-  background-image: -moz-image-set(url('/images/events/3t-black/xx.png?1489821175') 1x, url('/images/events/3t-black/xx.png?1489821175') 2x);
-  background-image: -o-image-set(url('/images/events/3t-black/xx.png?1489821175') 1x, url('/images/events/3t-black/xx.png?1489821175') 2x);
-  background-image: -ms-image-set(url('/images/events/3t-black/xx.png?1489821175') 1x, url('/images/events/3t-black/xx.png?1489821175') 2x);
+  background-image: image-set(url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 1x);
+  background-image: image-set(url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 1x, url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 2x);
+  background-image: -webkit-image-set(url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 1x, url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 2x);
+  background-image: -moz-image-set(url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 1x, url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 2x);
+  background-image: -o-image-set(url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 1x, url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 2x);
+  background-image: -ms-image-set(url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 1x, url('{{ site.url }}/images/fake-a-large-image/small.png?1489821175') 2x);
 }
 </style>
 
