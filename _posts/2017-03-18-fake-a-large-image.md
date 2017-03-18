@@ -36,6 +36,7 @@ tags: [memo]
   width: 100%;
   padding-bottom: 50%;
   max-width: 1200px;
+  position: relative;
 }
 
 .fake-image:after {
@@ -91,6 +92,7 @@ tags: [memo]
   $image-width: image-width($image-path) * $scale;
   $image-height: image-height($image-path) * $scale;
   
+  position: relative;
   height: 0;
   width: 100%;
   padding-bottom: percentage($target-height / $target-width);
