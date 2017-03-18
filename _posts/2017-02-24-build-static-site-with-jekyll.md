@@ -4,7 +4,6 @@ title: 使用Jekyll搭建静态站
 description: "介绍如何使用Jekyll搭建一个静态网站"
 modified: 2017-02-24
 tags: [jekyll]
-category: memo
 image:
   feature: abstract-3.jpg
 ---
